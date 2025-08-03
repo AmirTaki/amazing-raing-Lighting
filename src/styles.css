@@ -23,7 +23,7 @@ body{
     position: relative;
     width: 320px;
     height: 100px;
-    background: #fff;  
+    /* background: #fff;   */
     border-radius: 100px;
     filter: drop-shadow(8px 8px 0 #0005); 
     animation: animatedCloud 2s steps(1) infinite;
@@ -49,4 +49,12 @@ body{
     border-radius: 50%;
     background-color: #484f59;
     box-shadow: 90px -10px 0 30px #484f59 ;
+}
+
+.cloud::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #484f59;
+    border-radius: 100px;
 }
