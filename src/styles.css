@@ -28,3 +28,13 @@ body{
     filter: drop-shadow(8px 8px 0 #0005); 
     animation: animatedCloud 2s linear infinite;
 }
+
+@keyframes animatedCloud {
+    0%{
+        filter: drop-shadow(8px 8px #0005) drop-shadow(0 0 0 #fff);   
+    }
+    95%{
+        filter: drop-shadow(8px 8px #0005) drop-shadow(0 0 50px #fff);   
+    }
+
+}
