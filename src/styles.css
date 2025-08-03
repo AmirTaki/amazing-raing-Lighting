@@ -31,10 +31,10 @@ body{
 
 @keyframes animatedCloud {
     0%{
-        filter: drop-shadow(8px 8px #0005) drop-shadow(0 0 0 #fff) brightness(1);   
+        filter: drop-shadow(8px 8px #0001) drop-shadow(0 0 0 #fff) brightness(1);   
     }
     95%{
-        filter: drop-shadow(8px 8px #0005) drop-shadow(0 0 50px #fff) brightness(10);   
+        filter: drop-shadow(8px 8px #0001) drop-shadow(0 0 50px #fff) brightness(10);   
     }
 
 }
