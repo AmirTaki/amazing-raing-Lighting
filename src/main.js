@@ -8,4 +8,6 @@ const rain = () => {
 
 
 }
-setInterval()
+setInterval(()=>{
+    rain()
+}, 20)
