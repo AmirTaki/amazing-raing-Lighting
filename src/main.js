@@ -5,7 +5,9 @@ const rain = () => {
     e.classList.add("drop");
     cloud.append(e)
 
-
+    setTimeout(()=> {
+        cloud.removeChild(e)
+    }, 2000)
 
 }
 setInterval(()=>{
